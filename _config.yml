@@ -1,3 +1,10 @@
+name: Activecell Branding
+markdown: redcarpet
+pygments: true
+
+source: ./
+exclude: [".git", "sass", "_assets.yaml", "_config.yaml", "Gemfile", "Gemfile.lock", "Guardfile", "Procfile", "README.md"]
+
 # Dependencies
 markdown:         rdiscount
 pygments:         true
