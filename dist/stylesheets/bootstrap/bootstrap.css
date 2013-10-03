@@ -257,7 +257,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "arno-pro", "adobe-garamond-pro", Georgia, "Times New Roman", Times, serif;
   font-size: 20px;
   line-height: 1.42857;
   color: white;
@@ -382,7 +382,7 @@ cite {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
   line-height: 1.1; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
@@ -538,7 +538,7 @@ address {
 
 code,
 pre {
-  font-family: Monaco, Menlo, Consolas, "Courier New", monospace; }
+  font-family: "anonymous-pro", Monaco, Menlo, Consolas, "Courier New", monospace; }
 
 code {
   padding: 2px 4px;
