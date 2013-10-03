@@ -213,7 +213,7 @@ window.onload = function () { // wait for load in a dumb way because B-0
 
     return {
       'bootstrap.js': js,
-      'bootstrap.min.js': cw + uglify(js)
+      'activecell-branding.js': cw + uglify(js)
     }
   }
 

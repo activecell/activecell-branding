@@ -3,16 +3,16 @@ gzip_assets: off
 
 javascripts:
   activecell-branding:
-    - javascripts/bootstrap/affix
-    - javascripts/bootstrap/alert
-    - javascripts/bootstrap/button
-    - javascripts/bootstrap/carousel
-    - javascripts/bootstrap/collapse
-    - javascripts/bootstrap/dropdown
-    - javascripts/bootstrap/tab
-    - javascripts/bootstrap/transition
-    - javascripts/bootstrap/scrollspy
-    - javascripts/bootstrap/modal
-    - javascripts/bootstrap/tooltip
-    - javascripts/bootstrap/popover
+    - javascripts/bootstrap/affix.js
+    - javascripts/bootstrap/alert.js
+    - javascripts/bootstrap/button.js
+    - javascripts/bootstrap/carousel.js
+    - javascripts/bootstrap/collapse.js
+    - javascripts/bootstrap/dropdown.js
+    - javascripts/bootstrap/tab.js
+    - javascripts/bootstrap/transition.js
+    - javascripts/bootstrap/scrollspy.js
+    - javascripts/bootstrap/modal.js
+    - javascripts/bootstrap/tooltip.js
+    - javascripts/bootstrap/popover.js
     
