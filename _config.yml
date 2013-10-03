@@ -11,3 +11,7 @@ pygments:         true
 
 # Permalinks
 permalink:        pretty
+
+
+current_version: 0.0.0
+repo: https://github.com/activecell/activecell-branding
