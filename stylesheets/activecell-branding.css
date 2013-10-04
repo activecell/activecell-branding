@@ -4300,3 +4300,7 @@ pre {
 
 .well {
   color: #333333; }
+
+.nav {
+  font-size: 14px;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
