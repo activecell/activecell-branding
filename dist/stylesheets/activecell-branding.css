@@ -4294,3 +4294,9 @@ body {
   background-image: -moz-radial-gradient(circle, #30878f, #00455b);
   background-image: radial-gradient(circle, #30878f, #00455b);
   background-repeat: no-repeat; }
+
+pre {
+  font-size: 14px; }
+
+.well {
+  color: #333333; }
