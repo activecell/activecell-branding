@@ -4304,3 +4304,6 @@ pre {
 .nav {
   font-size: 14px;
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.modal {
+  color: #333333; }
