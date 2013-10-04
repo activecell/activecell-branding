@@ -277,10 +277,10 @@ textarea {
   background-image: none; }
 
 a {
-  color: #30878f;
+  color: #70c7cf;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #1d5156;
+    color: #3dabb5;
     text-decoration: underline; }
   a:focus {
     outline: thin dotted #333;
@@ -1790,7 +1790,7 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
     border-color: #46b8da; }
 
 .btn-link {
-  color: #30878f;
+  color: #70c7cf;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0; }
@@ -1801,7 +1801,7 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
   .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
     border-color: transparent; }
   .btn-link:hover, .btn-link:focus {
-    color: #1d5156;
+    color: #3dabb5;
     text-decoration: underline;
     background-color: transparent; }
   .btn-link[disabled]:hover, .btn-link[disabled]:focus, fieldset[disabled] .btn-link:hover, fieldset[disabled] .btn-link:focus {
@@ -2255,7 +2255,7 @@ input[type="button"].btn-block {
         cursor: not-allowed; }
   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
     background-color: #eeeeee;
-    border-color: #30878f; }
+    border-color: #70c7cf; }
   .nav .nav-divider {
     height: 1px;
     margin: 13px 0;
@@ -2335,12 +2335,12 @@ input[type="button"].btn-block {
   display: block; }
 
 .nav .caret {
-  border-top-color: #30878f;
-  border-bottom-color: #30878f; }
+  border-top-color: #70c7cf;
+  border-bottom-color: #70c7cf; }
 
 .nav a:hover .caret {
-  border-top-color: #1d5156;
-  border-bottom-color: #1d5156; }
+  border-top-color: #3dabb5;
+  border-bottom-color: #3dabb5; }
 
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
@@ -2891,7 +2891,7 @@ a.badge:hover, a.badge:focus {
 
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #30878f;
+  color: #70c7cf;
   background-color: white; }
 
 .nav-pills > li > a > .badge {
@@ -2931,7 +2931,7 @@ a.list-group-item.active > .badge,
 
 a.thumbnail:hover,
 a.thumbnail:focus {
-  border-color: #30878f; }
+  border-color: #70c7cf; }
 
 .thumbnail > img {
   margin-left: auto;
