@@ -4328,6 +4328,11 @@ select[size],
   line-height: 1.4em;
   height: auto; }
 
+.dropdown-menu {
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4em; }
+
 .well {
   color: #333333; }
 
