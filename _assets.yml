@@ -15,4 +15,5 @@ javascripts:
     - javascripts/bootstrap/modal.js
     - javascripts/bootstrap/tooltip.js
     - javascripts/bootstrap/popover.js
+    - javascripts/libs/chosen.jquery.js
     

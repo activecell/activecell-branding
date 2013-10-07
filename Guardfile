@@ -15,4 +15,5 @@ end
 
 guard :copy, :from => 'stylesheets', :to => 'dist/stylesheets', :run_at_start => true, :mkpath => true, :delete => true
 guard :copy, :from => 'javascripts', :to => 'dist/javascripts', :run_at_start => true, :mkpath => true, :delete => true
+guard :copy, :from => 'images', :to => 'dist/images', :run_at_start => true, :mkpath => true, :delete => true
 # guard :copy, :from => 'fonts', :to => 'dist/fonts', :run_at_start => true, :mkpath => true, :delete => true
