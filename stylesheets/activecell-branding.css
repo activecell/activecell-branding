@@ -6117,5 +6117,10 @@ select[size],
     direction: rtl;
     padding: 4px 5px 4px 20px; }
 
+.btn {
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4em; }
+
 .modal {
   color: #333333; }
