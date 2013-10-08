@@ -1,0 +1,32 @@
+.table > thead > tr,
+.table > tbody > tr,
+.table > tfoot > tr {
+  > td.active,
+  > th.active,
+  &.active > td,
+  &.active > th  {
+    color: #fff;
+  }
+}
+
+.table-hover {
+  > tbody {
+    > tr:hover {
+      > td,
+      > th {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.table-striped {
+  > tbody {
+    > tr:nth-child(odd) {
+      > td,
+      > th {
+        color: $gray-dark;
+      }
+    }
+  }
+}
