@@ -6122,5 +6122,8 @@ select[size],
   font-size: 14px;
   line-height: 1.4em; }
 
+.label {
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
 .modal {
   color: #333333; }
