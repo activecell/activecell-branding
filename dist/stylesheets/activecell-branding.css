@@ -2277,7 +2277,7 @@ input[type="button"].btn-block {
       .nav-tabs > li > a:hover {
         border-color: #eeeeee #eeeeee #dddddd; }
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-      color: #555555;
+      color: #70c7cf;
       background-color: #30878f;
       border: 1px solid #dddddd;
       border-bottom-color: transparent;
