@@ -6,6 +6,69 @@ lead: "Over a dozen reusable components built to provide iconography, dropdowns,
 base_url: "../"
 ---
 
+  <!-- H-Entry
+  ================================================== -->
+  <div class="bs-docs-section">
+    <div class="page-header">
+      <h1 id="h-entry">H-Entry</h1>
+    </div>
+    <p class="lead">h-entry is a simple, open format for episodic or datestamped content on the web. h-entry is often used with content intended to be syndicated, e.g. blog posts. h-entry is one of several open microformat draft standards suitable for embedding data in HTML/HTML5.</p>
+
+    <h3>Example</h3>
+    <article class="h-entry">
+      <h1 class="p-name">Microformats are amazing</h1>
+      <p>Published by <a class="p-author h-card">W. Developer</a>
+         on <time class="dt-published" datetime="2013-06-13 12:00:00">13<sup>th</sup> June 2013</time>
+ 
+      <p class="p-summary">In which I extoll the virtues of using microformats.</p>
+ 
+      <div class="e-content"> 
+        <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+
+        <h2>Header Level 2</h2>
+	       
+        <ol>
+           <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+           <li>Aliquam tincidunt mauris eu risus.</li>
+        </ol>
+
+        <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+
+        <h3>Header Level 3</h3>
+
+        <ul>
+           <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+           <li>Aliquam tincidunt mauris eu risus.</li>
+        </ul>
+
+<pre><code>
+#header h1 a { 
+	display: block; 
+	width: 300px; 
+	height: 80px; 
+}
+</pre></code>
+      </div>
+    </article>
+{% highlight html %}
+<article class="h-entry">
+  <h1 class="p-name">Microformats are amazing</h1>
+  <p>Published by <a class="p-author h-card">W. Developer</a>
+     on <time class="dt-published" datetime="2013-06-13 12:00:00">13<sup>th</sup> June 2013</time>
+ 
+  <p class="p-summary">In which I extoll the virtues of using microformats.</p>
+ 
+  <div class="e-content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At vel nam voluptate. Quasi, placeat, dignissimos, nostrum, sed quisquam natus unde esse quam voluptas similique earum numquam omnis dolorum ad quibusdam.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At vel nam voluptate. Quasi, placeat, dignissimos, nostrum, sed quisquam natus unde esse quam voluptas similique earum numquam omnis dolorum ad quibusdam.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At vel nam voluptate. Quasi, placeat, dignissimos, nostrum, sed quisquam natus unde esse quam voluptas similique earum numquam omnis dolorum ad quibusdam.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At vel nam voluptate. Quasi, placeat, dignissimos, nostrum, sed quisquam natus unde esse quam voluptas similique earum numquam omnis dolorum ad quibusdam.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At vel nam voluptate. Quasi, placeat, dignissimos, nostrum, sed quisquam natus unde esse quam voluptas similique earum numquam omnis dolorum ad quibusdam.</p>
+  </div>
+</article>
+{% endhighlight %}
+  </div>
+
   <!-- Dropdowns
   ================================================== -->
   <div class="bs-docs-section">

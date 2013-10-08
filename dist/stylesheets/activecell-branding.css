@@ -332,13 +332,13 @@ hr {
 p {
   margin: 0 0 14px; }
 
-.lead {
+.lead, .p-summary {
   margin-bottom: 28px;
   font-size: 23px;
   font-weight: 200;
   line-height: 1.4; }
   @media (min-width: 768px) {
-    .lead {
+    .lead, .p-summary {
       font-size: 30px; } }
 
 small {
@@ -6149,6 +6149,46 @@ select[size],
 .input-group-btn {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px; }
+
+.h-entry {
+  position: relative;
+  margin: 20px auto;
+  padding: 20px;
+  color: #333333;
+  background: #fff;
+  -webkit-transform-style: flat;
+  -moz-transform-style: flat;
+  -ms-transform-style: flat;
+  -o-transform-style: flat;
+  transform-style: flat; }
+  .h-entry:before, .h-entry:after {
+    -webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+    -webkit-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    content: " ";
+    z-index: -2;
+    width: 50%;
+    height: 10px;
+    max-width: 300px;
+    max-height: 10px;
+    -webkit-transform-style: flat;
+    -moz-transform-style: flat;
+    -ms-transform-style: flat;
+    -o-transform-style: flat;
+    transform-style: flat; }
+    .h-entry:before:hover, .h-entry:after:hover {
+      z-index: -2; }
+  .h-entry:after {
+    -webkit-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto; }
 
 .modal {
   color: #333333; }

@@ -1,0 +1,65 @@
+.h-entry {
+  position: relative;
+  margin: 20px auto;
+  padding: 20px;
+  color: $gray-dark;
+  background: #fff;
+  
+  -webkit-transform-style: flat;
+  -moz-transform-style: flat;
+  -ms-transform-style: flat;
+  -o-transform-style: flat;
+  transform-style: flat;
+  
+  &:before, &:after {
+    @include box-shadow(0 15px 10px rgba(0, 0, 0, 0.7));
+    @include rotate(-3deg);
+
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    content: " ";
+    z-index: -2;
+    width: 50%;
+    height: 10px;
+    max-width: 300px;
+    max-height: 10px;
+    
+    -webkit-transform-style: flat;
+    -moz-transform-style: flat;
+    -ms-transform-style: flat;
+    -o-transform-style: flat;
+    transform-style: flat;
+
+    &:hover {
+      z-index: -2;
+    }
+  }
+
+  &:after {
+    @include rotate(3deg);
+
+    right: 10px;
+    left: auto;
+  }
+}
+
+.p-name {
+  
+}
+
+.p-author {
+  
+}
+
+.dt-published {
+  
+}
+
+.p-summary {
+  @extend .lead; 
+}
+
+.e-content {
+  
+}
