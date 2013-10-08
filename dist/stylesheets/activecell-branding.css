@@ -6125,5 +6125,10 @@ select[size],
 .label {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
+.input-group-addon,
+.input-group-btn {
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px; }
+
 .modal {
   color: #333333; }
