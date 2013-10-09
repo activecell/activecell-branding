@@ -6209,5 +6209,8 @@ select[size],
   .widget-block:after {
     clear: both; }
 
+.alert {
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
 .modal {
   color: #333333; }
