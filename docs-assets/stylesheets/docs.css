@@ -497,46 +497,6 @@ h1[id] {
 
 
 /*
- * Callouts
- *
- * Not quite alerts, but custom and helpful notes for folks reading the docs.
- * Requires a base and modifier class.
- */
-
-/* Common styles for all types */
-.bs-callout {
-  margin: 20px 0;
-  padding: 15px 30px 15px 15px;
-  border-left: 5px solid #eee;
-  color: #333;
-}
-.bs-callout h4 {
-  margin-top: 0;
-}
-.bs-callout p:last-child {
-  margin-bottom: 0;
-}
-.bs-callout code,
-.bs-callout .highlight {
-  background-color: #fff;
-}
-
-/* Variations */
-.bs-callout-danger {
-  background-color: #fcf2f2;
-  border-color: #dFb5b4;
-}
-.bs-callout-warning {
-  background-color: #fefbed;
-  border-color: #f1e7bc;
-}
-.bs-callout-info {
-  background-color: #f0f7fd;
-  border-color: #d0e3f0;
-}
-
-
-/*
  * Grid examples
  *
  * Highlight the grid columns within the docs so folks can see their padding,
@@ -1013,7 +973,7 @@ h1[id] {
   margin-top: 15px;
   margin-bottom: 0;
 }
-.bs-customizer .bs-callout h4 {
+.bs-customizer .callout h4 {
   margin-top: 0; /* lame, but due to specificity we have to duplicate */
   margin-bottom: 5px;
 }

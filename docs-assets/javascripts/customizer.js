@@ -13,7 +13,7 @@ window.onload = function () { // wait for load in a dumb way because B-0
   }
 
   function showCallout(msg, showUpTop) {
-    var callout = $('<div class="bs-callout bs-callout-danger">\
+    var callout = $('<div class="callout callout-danger">\
        <h4>Attention!</h4>\
       <p>' + msg + '</p>\
     </div>')
