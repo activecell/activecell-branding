@@ -1,5 +1,7 @@
 .input-group-addon,
-.input-group-btn {
+.input-group-btn,
+.input-group-btn .btn {
   font-family: $font-family-sans-serif;
   font-size: 12px;
+  line-height: 1.6em;
 }

@@ -6132,9 +6132,11 @@ select[size],
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 .input-group-addon,
-.input-group-btn {
+.input-group-btn,
+.input-group-btn .btn {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px; }
+  font-size: 12px;
+  line-height: 1.6em; }
 
 .h-entry {
   position: relative;
