@@ -5734,7 +5734,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 /*!
  * Activecell Branding
  */
-.lead, .p-summary, .footer, footer {
+.lead, .p-summary, .footer, footer, blockquote small {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 html {
