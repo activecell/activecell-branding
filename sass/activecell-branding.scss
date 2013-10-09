@@ -69,6 +69,7 @@
  */
 
 // Activecell Core
+@import "activecell/core/type";
 @import "activecell/core/scaffolding";
 @import "activecell/core/code";
 @import "activecell/core/forms";
@@ -83,6 +84,10 @@
 @import "activecell/components/labels";
 @import "activecell/components/input-groups";
 @import "activecell/components/h-entry";
+@import "activecell/components/pagination";
+@import "activecell/components/pager";
+@import "activecell/components/badges";
+@import "activecell/components/breadcrumbs";
 
 // Activecell Components withs JavaScript
 @import "activecell/components_js/modal";
