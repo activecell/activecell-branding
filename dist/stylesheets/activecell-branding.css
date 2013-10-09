@@ -1184,10 +1184,10 @@ th {
     padding: 8px;
     line-height: 1.42857;
     vertical-align: top;
-    border-top: 1px solid #30878f; }
+    border-top: 1px solid #eeeeee; }
   .table thead > tr > th {
     vertical-align: bottom;
-    border-bottom: 2px solid #30878f; }
+    border-bottom: 2px solid #eeeeee; }
   .table caption + thead tr:first-child th, .table caption + thead tr:first-child td,
   .table colgroup + thead tr:first-child th,
   .table colgroup + thead tr:first-child td,
@@ -1195,7 +1195,7 @@ th {
   .table thead:first-child tr:first-child td {
     border-top: 0; }
   .table tbody + tbody {
-    border-top: 2px solid #30878f; }
+    border-top: 2px solid #eeeeee; }
   .table .table {
     background-color: #30878f; }
 
@@ -1208,14 +1208,14 @@ th {
   padding: 5px; }
 
 .table-bordered {
-  border: 1px solid #30878f; }
+  border: 1px solid #eeeeee; }
   .table-bordered > thead > tr > th,
   .table-bordered > thead > tr > td,
   .table-bordered > tbody > tr > th,
   .table-bordered > tbody > tr > td,
   .table-bordered > tfoot > tr > th,
   .table-bordered > tfoot > tr > td {
-    border: 1px solid #30878f; }
+    border: 1px solid #eeeeee; }
   .table-bordered > thead > tr > th,
   .table-bordered > thead > tr > td {
     border-bottom-width: 2px; }
@@ -1226,7 +1226,7 @@ th {
 
 .table-hover > tbody > tr:hover > td,
 .table-hover > tbody > tr:hover > th {
-  background-color: #00455b; }
+  background-color: #eeeeee; }
 
 table col[class*="col-"] {
   float: none;
@@ -1247,7 +1247,7 @@ table th[class*="col-"] {
 .table > tfoot > tr > th.active,
 .table > tfoot > tr.active > td,
 .table > tfoot > tr.active > th {
-  background-color: #00455b; }
+  background-color: #eeeeee; }
 
 .table > thead > tr > td.success,
 .table > thead > tr > th.success, .table > thead > tr.success > td, .table > thead > tr.success > th,
@@ -1309,7 +1309,7 @@ table th[class*="col-"] {
     margin-bottom: 15px;
     overflow-y: hidden;
     overflow-x: scroll;
-    border: 1px solid #30878f; }
+    border: 1px solid #eeeeee; }
     .table-responsive > .table {
       margin-bottom: 0;
       background-color: #fff; }
@@ -3206,7 +3206,7 @@ a.list-group-item {
 .panel > .table {
   margin-bottom: 0; }
 .panel > .panel-body + .table {
-  border-top: 1px solid #30878f; }
+  border-top: 1px solid #eeeeee; }
 
 .panel-heading {
   padding: 10px 15px;
@@ -5782,25 +5782,9 @@ select[size],
   line-height: 1.4em;
   height: auto; }
 
-.table > thead > tr > td.active,
-.table > thead > tr > th.active, .table > thead > tr.active > td, .table > thead > tr.active > th,
-.table > tbody > tr > td.active,
-.table > tbody > tr > th.active,
-.table > tbody > tr.active > td,
-.table > tbody > tr.active > th,
-.table > tfoot > tr > td.active,
-.table > tfoot > tr > th.active,
-.table > tfoot > tr.active > td,
-.table > tfoot > tr.active > th {
-  color: #fff; }
-
-.table-hover > tbody > tr:hover > td,
-.table-hover > tbody > tr:hover > th {
-  color: #fff; }
-
-.table-striped > tbody > tr:nth-child(odd) > td,
-.table-striped > tbody > tr:nth-child(odd) > th {
-  color: #333333; }
+.table {
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px; }
 
 .dropdown-menu {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -6203,6 +6187,27 @@ select[size],
 
 .breadcrumb {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.widget-block {
+  position: relative;
+  margin: 0 0 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.14);
+  color: #333333;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(white), to(#f9f9f9));
+  background-image: -webkit-linear-gradient(top, white, 0%, #f9f9f9, 100%);
+  background-image: -moz-linear-gradient(top, white 0%, #f9f9f9 100%);
+  background-image: linear-gradient(to bottom, white 0%, #f9f9f9 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFF9F9F9', GradientType=0); }
+  .widget-block:before, .widget-block:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */ }
+  .widget-block:after {
+    clear: both; }
 
 .modal {
   color: #333333; }

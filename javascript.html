@@ -78,6 +78,7 @@ $('#myModal').on('show.bs.modal', function (e) {
     </div>
   </div>
 
+
   <!-- Harvest chosen
   ================================================== -->
   <div class="bs-docs-section">
@@ -823,6 +824,7 @@ $('#myModal').on('show.bs.modal', function (e) {
           </div>
   </div>
 
+
   <!-- Transitions
   ================================================== -->
   <div class="bs-docs-section">
@@ -834,7 +836,6 @@ $('#myModal').on('show.bs.modal', function (e) {
     <h3>What's inside</h3>
     <p>Transition.js is a basic helper for <code>transitionEnd</code> events as well as a CSS transition emulator. It's used by the other plugins to check for CSS transition support and to catch hanging transitions.</p>
   </div>
-
 
 
   <!-- Modal
@@ -983,7 +984,7 @@ $('#myModal').on('show.bs.modal', function (e) {
 
     <h3>Options</h3>
     <p>Options can be passed via data attributes or JavaScript. For data attributes, append the option name to <code>data-</code>, as in <code>data-backdrop=""</code>.</p>
-    <div class="table-responsive">
+    <div class="table-responsive widget-block">
       <table class="table table-bordered table-striped">
         <thead>
          <tr>
@@ -1050,7 +1051,7 @@ $('#myModal').modal({
 
     <h3>Events</h3>
     <p>Bootstrap's modal class exposes a few events for hooking into modal functionality.</p>
-    <div class="table-responsive">
+    <div class="table-responsive widget-block">
       <table class="table table-bordered table-striped">
         <thead>
          <tr>
@@ -1084,7 +1085,6 @@ $('#myModal').on('hidden.bs.modal', function () {
 })
 {% endhighlight %}
   </div>
-
 
 
   <!-- Dropdowns
@@ -1226,7 +1226,7 @@ $('.dropdown-toggle').dropdown()
     <p>Toggles the dropdown menu of a given navbar or tabbed navigation.</p>
 
     <h3>Events</h3>
-    <div class="table-responsive">
+    <div class="table-responsive widget-block">
       <table class="table table-bordered table-striped">
         <thead>
           <tr>
@@ -1348,7 +1348,7 @@ $('[data-spy="scroll"]').each(function () {
 
     <h3>Options</h3>
     <p>Options can be passed via data attributes or JavaScript. For data attributes, append the option name to <code>data-</code>, as in <code>data-offset=""</code>.</p>
-    <div class="table-responsive">
+    <div class="table-responsive widget-block">
       <table class="table table-bordered table-striped">
         <thead>
          <tr>
@@ -1370,7 +1370,7 @@ $('[data-spy="scroll"]').each(function () {
     </div><!-- ./bs-table-responsive -->
 
     <h3>Events</h3>
-    <div class="table-responsive">
+    <div class="table-responsive widget-block">
       <table class="table table-bordered table-striped">
         <thead>
          <tr>
@@ -1392,7 +1392,6 @@ $('#myScrollspy').on('activate.bs.scrollspy', function () {
 })
 {% endhighlight %}
   </div>
-
 
 
   <!-- Tabs
@@ -1514,7 +1513,7 @@ $('#myTab li:eq(2) a').tab('show') // Select third tab (0-indexed)
 {% endhighlight %}
 
     <h3>Events</h3>
-    <div class="table-responsive">
+    <div class="table-responsive widget-block">
       <table class="table table-bordered table-striped">
         <thead>
          <tr>
@@ -1541,7 +1540,6 @@ $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
 })
 {% endhighlight %}
   </div>
-
 
 
   <!-- Tooltips
@@ -1590,7 +1588,7 @@ $('#example').tooltip(options)
 
     <h3>Options</h3>
     <p>Options can be passed via data attributes or JavaScript. For data attributes, append the option name to <code>data-</code>, as in <code>data-animation=""</code>.</p>
-    <div class="table-responsive">
+    <div class="table-responsive  widget-block">
       <table class="table table-bordered table-striped">
         <thead>
          <tr>
@@ -1690,7 +1688,7 @@ $('#example').tooltip(options)
     {% highlight js %}$('#element').tooltip('destroy'){% endhighlight %}
 
     <h3>Events</h3>
-    <div class="table-responsive">
+    <div class="table-responsive widget-block">
       <table class="table table-bordered table-striped">
         <thead>
          <tr>
@@ -1724,6 +1722,7 @@ $('#myTooltip').on('hidden.bs.tooltip', function () {
 })
 {% endhighlight %}
   </div>
+
 
   <!-- Popovers
   ================================================== -->
@@ -1821,7 +1820,7 @@ $('#myTooltip').on('hidden.bs.tooltip', function () {
 
     <h3>Options</h3>
     <p>Options can be passed via data attributes or JavaScript. For data attributes, append the option name to <code>data-</code>, as in <code>data-animation=""</code>.</p>
-    <div class="table-responsive">
+    <div class="table-responsive widget-block">
       <table class="table table-bordered table-striped">
         <thead>
           <tr>
@@ -1920,7 +1919,7 @@ $('#myTooltip').on('hidden.bs.tooltip', function () {
     <p>Hides and destroys an element's popover.</p>
     {% highlight js %}$('#element').popover('destroy'){% endhighlight %}
     <h3>Events</h3>
-    <div class="table-responsive">
+    <div class="table-responsive widget-block">
       <table class="table table-bordered table-striped">
         <thead>
          <tr>
@@ -1954,6 +1953,7 @@ $('#myPopover').on('hidden.bs.popover', function () {
 })
 {% endhighlight %}
   </div>
+
 
   <!-- Alert
   ================================================== -->
@@ -2005,7 +2005,7 @@ $('#myPopover').on('hidden.bs.popover', function () {
 
     <h3>Events</h3>
     <p>Bootstrap's alert class exposes a few events for hooking into alert functionality.</p>
-    <div class="table-responsive">
+    <div class="table-responsive widget-block">
       <table class="table table-bordered table-striped">
         <thead>
           <tr>
@@ -2031,7 +2031,6 @@ $('#my-alert').bind('closed.bs.alert', function () {
 })
 {% endhighlight %}
   </div>
-
 
 
   <!-- Buttons
@@ -2175,7 +2174,6 @@ $('.btn-group').button()
   </div>
 
 
-
   <!-- Collapse
   ================================================== -->
   <div class="bs-docs-section">
@@ -2311,7 +2309,7 @@ $(".collapse").collapse()
 
     <h3>Options</h3>
     <p>Options can be passed via data attributes or JavaScript. For data attributes, append the option name to <code>data-</code>, as in <code>data-parent=""</code>.</p>
-    <div class="table-responsive">
+    <div class="table-responsive widget-block">
       <table class="table table-bordered table-striped">
         <thead>
          <tr>
@@ -2359,7 +2357,7 @@ $('#myCollapsible').collapse({
 
     <h3>Events</h3>
     <p>Bootstrap's collapse class exposes a few events for hooking into collapse functionality.</p>
-    <div class="table-responsive">
+    <div class="table-responsive widget-block">
       <table class="table table-bordered table-striped">
         <thead>
          <tr>
@@ -2395,7 +2393,6 @@ $('#myCollapsible').on('hidden.bs.collapse', function () {
 })
 {% endhighlight %}
   </div>
-
 
 
   <!-- Carousel
@@ -2536,7 +2533,7 @@ $('.carousel').carousel()
 
     <h3>Options</h3>
     <p>Options can be passed via data attributes or JavaScript. For data attributes, append the option name to <code>data-</code>, as in <code>data-interval=""</code>.</p>
-    <div class="table-responsive">
+    <div class="table-responsive widget-block">
       <table class="table table-bordered table-striped">
         <thead>
          <tr>
@@ -2597,7 +2594,7 @@ $('.carousel').carousel({
 
     <h3>Events</h3>
     <p>Bootstrap's carousel class exposes two events for hooking into carousel functionality.</p>
-    <div class="table-responsive">
+    <div class="table-responsive widget-block">
       <table class="table table-bordered table-striped">
         <thead>
          <tr>
@@ -2623,7 +2620,6 @@ $('#myCarousel').on('slide.bs.carousel', function () {
 })
 {% endhighlight %}
   </div>
-
 
 
   <!-- Affix
@@ -2672,7 +2668,7 @@ $('#myCarousel').on('slide.bs.carousel', function () {
     <h3>Options</h3>
     <p>Options can be passed via data attributes or JavaScript. For data attributes, append the option name to <code>data-</code>, as in <code>data-offset-top="200"</code>.</p>
 
-    <div class="table-responsive">
+    <div class="table-responsive widget-block">
       <table class="table table-bordered table-striped">
         <thead>
          <tr>

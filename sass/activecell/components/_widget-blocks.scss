@@ -1,0 +1,11 @@
+.widget-block {
+  position: relative;
+  margin: 0 0 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.14);
+  color: $gray-dark;
+
+  @include clearfix;
+  @include gradient-vertical(#ffffff, #f9f9f9);
+}

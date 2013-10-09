@@ -92,10 +92,10 @@ $table-condensed-cell-padding:       5px !default;
 
 $table-bg:                           transparent !default; // overall background-color
 $table-bg-accent:                    #f9f9f9 !default; // for striping
-$table-bg-hover:                     $primary-dark !default;
+$table-bg-hover:                     $gray-lighter !default;
 $table-bg-active:                    $table-bg-hover !default;
 
-$table-border-color:                 $primary !default; // table and cell border
+$table-border-color:                 $gray-lighter !default; // table and cell border
 
 
 // Buttons
