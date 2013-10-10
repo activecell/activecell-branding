@@ -1909,7 +1909,7 @@ input[type="button"].btn-block {
     clear: both;
     font-weight: normal;
     line-height: 1.42857;
-    color: #333333;
+    color: #555555;
     white-space: nowrap; }
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
@@ -5790,6 +5790,31 @@ select[size],
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.4em; }
+  .dropdown-menu:before {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    content: ""; }
+
+.dropup .dropdown-menu:before {
+  position: absolute;
+  top: auto;
+  bottom: -20px;
+  vertical-align: middle;
+  border-top: 10px solid #fff;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  content: ""; }
 
 .well {
   color: #333333; }

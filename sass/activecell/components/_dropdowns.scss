@@ -2,4 +2,36 @@
   font-family: $font-family-sans-serif;
   font-size: 14px;
   line-height: 1.4em;
+  
+  &:before {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    content: "";
+  }
+}
+
+.dropup {
+  .dropdown-menu {
+    &:before {
+      position: absolute;
+      top: auto;
+      bottom: -20px;
+      vertical-align: middle;
+      border-top: 10px solid #fff;
+      border-right: 10px solid transparent;
+      border-left: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      content: "";
+    }
+  }
 }
