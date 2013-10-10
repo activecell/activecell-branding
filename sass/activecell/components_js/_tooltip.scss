@@ -1,0 +1,35 @@
+.tooltip {
+  font-family: $font-family-sans-serif;
+  
+  &.top .tooltip-arrow {
+    bottom: 1px;
+  }
+  
+  &.top-left .tooltip-arrow {
+    bottom: 1px;
+  }
+  
+  &.top-right .tooltip-arrow {
+    bottom: 1px;
+  }
+  
+  &.right .tooltip-arrow {
+    left: 1px;
+  }
+  &.left .tooltip-arrow {
+    right: 1px;
+  }
+  &.bottom .tooltip-arrow {
+    top: 1px;
+  }
+  &.bottom-left .tooltip-arrow {
+    top: 1px;
+  }
+  &.bottom-right .tooltip-arrow {
+    top: 1px;
+  }
+}
+
+.tooltip-inner {
+  border: solid 1px #fff;
+}
