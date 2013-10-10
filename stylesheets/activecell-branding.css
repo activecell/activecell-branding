@@ -2629,7 +2629,7 @@ input[type="button"].btn-block {
 
 .navbar-inverse {
   background-color: #001e28;
-  border-color: black; }
+  border-color: #276a75; }
   .navbar-inverse .navbar-brand {
     color: #999999; }
     .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
@@ -2671,7 +2671,7 @@ input[type="button"].btn-block {
     border-bottom-color: white; }
   @media (max-width: 767px) {
     .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
-      border-color: black; }
+      border-color: #276a75; }
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
       color: #999999; }
       .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -5797,6 +5797,14 @@ select[size],
 .nav {
   font-size: 14px;
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.navbar-inverse {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#073648), to(#041b25));
+  background-image: -webkit-linear-gradient(top, #073648, 0%, #041b25, 100%);
+  background-image: -moz-linear-gradient(top, #073648 0%, #041b25 100%);
+  background-image: linear-gradient(to bottom, #073648 0%, #041b25 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF073648', endColorstr='#FF041B25', GradientType=0); }
 
 .chosen-select {
   width: 100%; }
