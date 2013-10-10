@@ -22,8 +22,7 @@ input[type="time"],
 input[type="url"],
 input[type="week"],
 select[multiple],
-select[size],
-.chosen-container {
+select[size] {
   font-family: $font-family-sans-serif;
   font-size: 14px;
   line-height: 1.4em;

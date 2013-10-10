@@ -1,0 +1,24 @@
+.chosen-container {
+  font-family: $font-family-sans-serif;
+  font-size: 14px;
+  line-height: 1.4em;
+  
+  .chosen-single {
+    @include border-radius($input-border-radius);
+  }
+  
+  &.chosen-with-drop {
+    .chosen-single {
+      @include border-bottom-radius(0);
+    }
+  }
+  
+  .chosen-results {
+    li {
+      &.highlighted {
+        color: $dropdown-link-active-color;
+        background-color: $dropdown-link-active-bg;
+      }
+    }
+  }
+}

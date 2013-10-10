@@ -59,6 +59,12 @@
 
 
 /*!
+ * Bootsrap chosen
+ */
+@import "bootstrap-chosen/bootstrap-chosen";
+
+
+/*!
  * Fonts
  */
 @import "font-awesome/font-awesome";
@@ -80,7 +86,6 @@
 @import "activecell/components/well";
 @import "activecell/components/navs";
 @import "activecell/components/navbar";
-@import "activecell/components/bootstrap-chosen";
 @import "activecell/components/buttons";
 @import "activecell/components/labels";
 @import "activecell/components/input-groups";
@@ -95,5 +100,8 @@
 
 // Activecell Components withs JavaScript
 @import "activecell/components_js/modal";
+
+// Activecell Bootsrap chosen
+@import "activecell/bootstrap-chosen/bootstrap-chosen";
 
 // Activecell Utility classes
