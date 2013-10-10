@@ -5816,6 +5816,10 @@ select[size],
   border-bottom: 10px solid transparent;
   content: ""; }
 
+@media (min-width: 768px) {
+  .navbar-right .dropdown-menu:before {
+    left: auto;
+    right: 20px; } }
 .well {
   color: #333333; }
 
