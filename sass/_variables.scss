@@ -300,7 +300,7 @@ $navbar-inverse-toggle-border-color:        #333 !default;
 // -------------------------
 
 $nav-link-padding:                          10px 15px !default;
-$nav-link-hover-bg:                         $gray-lighter !default;
+$nav-link-hover-bg:                         transparent !default;
 
 $nav-disabled-link-color:                   $gray-light !default;
 $nav-disabled-link-hover-color:             $gray-light !default;
@@ -309,19 +309,19 @@ $nav-open-link-hover-color:                 #fff !default;
 $nav-open-caret-border-color:               #fff !default;
 
 // Tabs
-$nav-tabs-border-color:                     #ddd !default;
+$nav-tabs-border-color:                     $link-color !default;
 
-$nav-tabs-link-hover-border-color:          $gray-lighter !default;
+$nav-tabs-link-hover-border-color:          transparent !default;
 
-$nav-tabs-active-link-hover-bg:             $body-bg !default;
-$nav-tabs-active-link-hover-color:          $link-color !default;
-$nav-tabs-active-link-hover-border-color:   #ddd !default;
+$nav-tabs-active-link-hover-bg:             $link-color !default;
+$nav-tabs-active-link-hover-color:          #fff !default;
+$nav-tabs-active-link-hover-border-color:   $link-color !default;
 
-$nav-tabs-justified-link-border-color:            #ddd !default;
-$nav-tabs-justified-active-link-border-color:     $body-bg !default;
+$nav-tabs-justified-link-border-color:            $link-color !default;
+$nav-tabs-justified-active-link-border-color:     $link-color !default;
 
 // Pills
-$nav-pills-active-link-hover-bg:            $component-active-bg !default;
+$nav-pills-active-link-hover-bg:            $link-color !default;
 $nav-pills-active-link-hover-color:         #fff !default;
 
 

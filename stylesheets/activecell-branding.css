@@ -2245,7 +2245,7 @@ input[type="button"].btn-block {
       padding: 10px 15px; }
       .nav > li > a:hover, .nav > li > a:focus {
         text-decoration: none;
-        background-color: #eeeeee; }
+        background-color: transparent; }
     .nav > li.disabled > a {
       color: #999999; }
       .nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
@@ -2254,7 +2254,7 @@ input[type="button"].btn-block {
         background-color: transparent;
         cursor: not-allowed; }
   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-    background-color: #eeeeee;
+    background-color: transparent;
     border-color: #70c7cf; }
   .nav .nav-divider {
     height: 1px;
@@ -2265,7 +2265,7 @@ input[type="button"].btn-block {
     max-width: none; }
 
 .nav-tabs {
-  border-bottom: 1px solid #dddddd; }
+  border-bottom: 1px solid #70c7cf; }
   .nav-tabs > li {
     float: left;
     margin-bottom: -1px; }
@@ -2275,11 +2275,11 @@ input[type="button"].btn-block {
       border: 1px solid transparent;
       border-radius: 4px 4px 0 0; }
       .nav-tabs > li > a:hover {
-        border-color: #eeeeee #eeeeee #dddddd; }
+        border-color: transparent transparent #70c7cf; }
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-      color: #70c7cf;
-      background-color: #30878f;
-      border: 1px solid #dddddd;
+      color: white;
+      background-color: #70c7cf;
+      border: 1px solid #70c7cf;
       border-bottom-color: transparent;
       cursor: default; }
 
@@ -2291,7 +2291,7 @@ input[type="button"].btn-block {
     margin-left: 2px; }
   .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     color: white;
-    background-color: #30878f; }
+    background-color: #70c7cf; }
 
 .nav-stacked > li {
   float: none; }
@@ -2313,10 +2313,10 @@ input[type="button"].btn-block {
 .nav-tabs-justified, .nav-tabs.nav-justified {
   border-bottom: 0; }
   .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid #70c7cf;
     margin-right: 0; }
   .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a {
-    border-bottom-color: #30878f; }
+    border-bottom-color: #70c7cf; }
 
 .tabbable:before, .tabbable:after {
   content: " ";
