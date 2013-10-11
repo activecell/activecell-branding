@@ -265,12 +265,12 @@ $navbar-default-toggle-border-color:       #ddd !default;
 // Inverted navbar
 //
 // Reset inverted navbar basics
-$navbar-inverse-color:                      $gray-light !default;
+$navbar-inverse-color:                      $gray-lighter !default;
 $navbar-inverse-bg:                         darken($primary-dark, 10%) !default;
 $navbar-inverse-border:                     #276A75 !default;
 
 // Inverted navbar links
-$navbar-inverse-link-color:                 $gray-light !default;
+$navbar-inverse-link-color:                 $gray-lighter !default;
 $navbar-inverse-link-hover-color:           #fff !default;
 $navbar-inverse-link-hover-bg:              transparent !default;
 $navbar-inverse-link-active-color:          $navbar-inverse-link-hover-color !default;
