@@ -19,3 +19,5 @@ This starts the following services:
 
 * `bundle exec jekyll serve --watch`
 * `bundle exec guard`
+
+Then view the site at [http://localhost:4000](http://localhost:4000/)
