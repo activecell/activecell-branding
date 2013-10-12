@@ -290,7 +290,7 @@ a {
 img {
   vertical-align: middle; }
 
-.img-responsive {
+.img-responsive, .vcard .photo {
   display: block;
   max-width: 100%;
   height: auto; }
@@ -298,7 +298,7 @@ img {
 .img-rounded {
   border-radius: 6px; }
 
-.img-thumbnail, .thumbnail {
+.img-thumbnail, .thumbnail, .vcard .photo {
   padding: 4px;
   line-height: 1.42857;
   background-color: #30878f;
@@ -375,12 +375,12 @@ cite {
   text-align: center; }
 
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+.h1, .h2, .h3, .vcard .fn, .h4, .vcard .org, .h5, .h6 {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
   line-height: 1.1; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
-  .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small {
+  .h1 small, .h2 small, .h3 small, .vcard .fn small, .h4 small, .vcard .org small, .h5 small, .h6 small {
     font-weight: normal;
     line-height: 1;
     color: #999999; }
@@ -403,10 +403,10 @@ h1, .h1 {
 h2, .h2 {
   font-size: 43px; }
 
-h3, .h3 {
+h3, .h3, .vcard .fn {
   font-size: 34px; }
 
-h4, .h4 {
+h4, .h4, .vcard .org {
   font-size: 25px; }
 
 h5, .h5 {
@@ -421,8 +421,8 @@ h1 small, .h1 small {
 h2 small, .h2 small {
   font-size: 25px; }
 
-h3 small, .h3 small,
-h4 small, .h4 small {
+h3 small, .h3 small, .vcard .fn small,
+h4 small, .h4 small, .vcard .org small {
   font-size: 20px; }
 
 .page-header {
@@ -2922,22 +2922,23 @@ a.list-group-item.active > .badge,
       .jumbotron h1 {
         font-size: 90px; } }
 
-.thumbnail {
+.thumbnail, .vcard .photo {
   display: block; }
-  .thumbnail > img {
+  .thumbnail > img, .vcard .photo > img {
     display: block;
     max-width: 100%;
     height: auto; }
 
-a.thumbnail:hover,
-a.thumbnail:focus {
+a.thumbnail:hover, .vcard a.photo:hover,
+a.thumbnail:focus,
+.vcard a.photo:focus {
   border-color: #70c7cf; }
 
-.thumbnail > img {
+.thumbnail > img, .vcard .photo > img {
   margin-left: auto;
   margin-right: auto; }
 
-.thumbnail .caption {
+.thumbnail .caption, .vcard .photo .caption {
   padding: 9px;
   color: white; }
 
@@ -6177,6 +6178,74 @@ select[size] {
   font-size: 12px;
   line-height: 1.6em; }
 
+.pagination {
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.pager {
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.badge {
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.breadcrumb {
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.widget-block, .vcard {
+  position: relative;
+  margin: 0 0 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.14);
+  color: #333333;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(white), to(#f9f9f9));
+  background-image: -webkit-linear-gradient(top, white, 0%, #f9f9f9, 100%);
+  background-image: -moz-linear-gradient(top, white 0%, #f9f9f9 100%);
+  background-image: linear-gradient(to bottom, white 0%, #f9f9f9 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFF9F9F9', GradientType=0); }
+  .widget-block:before, .vcard:before, .widget-block:after, .vcard:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */ }
+  .widget-block:after, .vcard:after {
+    clear: both; }
+
+.alert {
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.callout {
+  margin: 20px 0;
+  padding: 15px 30px 15px 15px;
+  border-left: 5px solid #eee;
+  color: #333; }
+
+.callout h4 {
+  margin-top: 0; }
+
+.callout p:last-child {
+  margin-bottom: 0; }
+
+.callout code,
+.callout .highlight {
+  background-color: #fff; }
+
+/* Variations */
+.callout-danger {
+  background-color: #fcf2f2;
+  border-color: #dFb5b4; }
+
+.callout-warning {
+  background-color: #fefbed;
+  border-color: #f1e7bc; }
+
+.callout-info {
+  background-color: #f0f7fd;
+  border-color: #d0e3f0; }
+
+.panel-body {
+  color: #333333; }
+
 .h-entry {
   position: relative;
   margin: 20px auto;
@@ -6217,73 +6286,21 @@ select[size] {
     right: 10px;
     left: auto; }
 
-.pagination {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-
-.pager {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-
-.badge {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-
-.breadcrumb {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-
-.widget-block {
-  position: relative;
-  margin: 0 0 10px 0;
-  padding: 10px;
-  border-radius: 4px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.14);
-  color: #333333;
-  background-image: -webkit-gradient(linear, left 0%, left 100%, from(white), to(#f9f9f9));
-  background-image: -webkit-linear-gradient(top, white, 0%, #f9f9f9, 100%);
-  background-image: -moz-linear-gradient(top, white 0%, #f9f9f9 100%);
-  background-image: linear-gradient(to bottom, white 0%, #f9f9f9 100%);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFF9F9F9', GradientType=0); }
-  .widget-block:before, .widget-block:after {
-    content: " ";
-    /* 1 */
-    display: table;
-    /* 2 */ }
-  .widget-block:after {
-    clear: both; }
-
-.alert {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-
-.callout {
-  margin: 20px 0;
-  padding: 15px 30px 15px 15px;
-  border-left: 5px solid #eee;
-  color: #333; }
-
-.callout h4 {
-  margin-top: 0; }
-
-.callout p:last-child {
-  margin-bottom: 0; }
-
-.callout code,
-.callout .highlight {
-  background-color: #fff; }
-
-/* Variations */
-.callout-danger {
-  background-color: #fcf2f2;
-  border-color: #dFb5b4; }
-
-.callout-warning {
-  background-color: #fefbed;
-  border-color: #f1e7bc; }
-
-.callout-info {
-  background-color: #f0f7fd;
-  border-color: #d0e3f0; }
-
-.panel-body {
-  color: #333333; }
+.vcard {
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  text-align: center; }
+  .vcard .photo {
+    margin-bottom: 20px; }
+  .vcard .fn {
+    display: block; }
+  .vcard .org {
+    color: #999999;
+    margin-bottom: 20px; }
+  .vcard .adr {
+    display: block;
+    clear: both;
+    margin-top: 10px; }
 
 .modal {
   color: #333333; }

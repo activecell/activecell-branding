@@ -1,0 +1,33 @@
+.vcard {
+  @extend  .widget-block;
+  
+  font-family: $font-family-sans-serif;
+  font-size: 12px;
+  text-align: center;
+  
+  .photo {
+    @extend .thumbnail;
+    @extend .img-responsive;
+    
+    margin-bottom: 20px;
+  }
+  
+  .fn {
+    @extend .h3;
+    
+    display: block;
+  }
+  
+  .org {
+    @extend .h4;
+    
+    color: $gray-light;
+    margin-bottom: 20px;
+  }
+  
+  .adr {
+    display: block;
+    clear: both;
+    margin-top: 10px;
+  }
+}

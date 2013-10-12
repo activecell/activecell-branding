@@ -89,7 +89,6 @@
 @import "activecell/components/buttons";
 @import "activecell/components/labels";
 @import "activecell/components/input-groups";
-@import "activecell/components/h-entry";
 @import "activecell/components/pagination";
 @import "activecell/components/pager";
 @import "activecell/components/badges";
@@ -98,6 +97,10 @@
 @import "activecell/components/alerts";
 @import "activecell/components/callouts";
 @import "activecell/components/panels";
+
+// Activecell Micro-formats
+@import "activecell/microformats/h-entry";
+@import "activecell/microformats/hCard";
 
 // Activecell Components withs JavaScript
 @import "activecell/components_js/modal";
