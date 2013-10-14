@@ -2265,7 +2265,7 @@ input[type="button"].btn-block {
     max-width: none; }
 
 .nav-tabs {
-  border-bottom: 1px solid #70c7cf; }
+  border-bottom: 1px solid #eeeeee; }
   .nav-tabs > li {
     float: left;
     margin-bottom: -1px; }
@@ -2275,11 +2275,11 @@ input[type="button"].btn-block {
       border: 1px solid transparent;
       border-radius: 4px 4px 0 0; }
       .nav-tabs > li > a:hover {
-        border-color: transparent transparent #70c7cf; }
+        border-color: transparent transparent #eeeeee; }
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-      color: white;
+      color: #eeeeee;
       background-color: #70c7cf;
-      border: 1px solid #70c7cf;
+      border: 1px solid #eeeeee;
       border-bottom-color: transparent;
       cursor: default; }
 
@@ -2313,10 +2313,10 @@ input[type="button"].btn-block {
 .nav-tabs-justified, .nav-tabs.nav-justified {
   border-bottom: 0; }
   .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
-    border-bottom: 1px solid #70c7cf;
+    border-bottom: 1px solid #eeeeee;
     margin-right: 0; }
   .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a {
-    border-bottom-color: #70c7cf; }
+    border-bottom-color: #eeeeee; }
 
 .tabbable:before, .tabbable:after {
   content: " ";
@@ -6156,6 +6156,9 @@ select[size] {
 .nav {
   font-size: 14px;
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.nav-tabs.nav-justified li.active a {
+  border-bottom-color: transparent; }
 
 .navbar-inverse {
   background-image: -webkit-gradient(linear, left 0%, left 100%, from(#073648), to(#041b25));
