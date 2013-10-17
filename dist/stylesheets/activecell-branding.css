@@ -6291,6 +6291,7 @@ select[size] {
   .h-entry figure {
     margin: 0 0 0.8em 0; }
     .h-entry figure figcaption {
+      font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 0.65em;
       line-height: 140%;
       color: #999999;
