@@ -6302,6 +6302,19 @@ select[size] {
       text-align: right;
       clear: both;
       margin-bottom: 1em; }
+  .h-entry aside {
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.65em;
+    line-height: 140%;
+    color: #999999;
+    display: block;
+    position: absolute;
+    margin-left: 0;
+    left: 7em;
+    width: 13em;
+    text-align: right;
+    clear: both;
+    margin-bottom: 1em; }
 
 .vcard {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
