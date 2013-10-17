@@ -13,7 +13,7 @@
 ### Foreman's dev mode
 We recommend using "Procfile" for foreman:
 
-    bundle exec foreman start -f Procfile
+    bundle exec foreman start
 
 This starts the following services:
 
