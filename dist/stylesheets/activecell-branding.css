@@ -280,7 +280,7 @@ a {
   color: #70c7cf;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #3dabb5;
+    color: #30878f;
     text-decoration: underline; }
   a:focus {
     outline: thin dotted #333;
@@ -1801,7 +1801,7 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
   .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
     border-color: transparent; }
   .btn-link:hover, .btn-link:focus {
-    color: #3dabb5;
+    color: #30878f;
     text-decoration: underline;
     background-color: transparent; }
   .btn-link[disabled]:hover, .btn-link[disabled]:focus, fieldset[disabled] .btn-link:hover, fieldset[disabled] .btn-link:focus {
@@ -2278,7 +2278,7 @@ input[type="button"].btn-block {
         border-color: transparent transparent #eeeeee; }
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
       color: #eeeeee;
-      background-color: #70c7cf;
+      background-color: #00455b;
       border: 1px solid #eeeeee;
       border-bottom-color: transparent;
       cursor: default; }
@@ -2339,8 +2339,8 @@ input[type="button"].btn-block {
   border-bottom-color: #70c7cf; }
 
 .nav a:hover .caret {
-  border-top-color: #3dabb5;
-  border-bottom-color: #3dabb5; }
+  border-top-color: #30878f;
+  border-bottom-color: #30878f; }
 
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
