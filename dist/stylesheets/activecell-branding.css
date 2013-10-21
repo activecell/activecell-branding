@@ -6165,7 +6165,22 @@ select[size] {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF073648', endColorstr='#FF041B25', GradientType=0); }
 
 .btn {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px; }
+
+.btn-lg, .btn-group-lg > .btn {
+  padding: 10px 16px;
+  font-size: 20px;
+  line-height: 1.33;
+  border-radius: 6px; }
+
+.btn-sm, .btn-group-sm > .btn,
+.btn-xs,
+.btn-group-xs > .btn {
+  padding: 5px 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  border-radius: 3px; }
 
 .label {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
