@@ -6261,9 +6261,11 @@ select[size] {
   color: #333333; }
 
 .h-entry {
+  font-size: 24px;
+  line-height: 135%;
   position: relative;
   margin: 0 0 30px;
-  padding: 20px 100px 20px 350px;
+  padding: 20px 80px 20px 310px;
   color: #333333;
   background: #fff;
   -webkit-transform-style: flat;
@@ -6299,6 +6301,14 @@ select[size] {
     transform: rotate(3deg);
     right: 10px;
     left: auto; }
+  .h-entry h1, .h-entry h2, .h-entry h3, .h-entry h4, .h-entry h5 {
+    margin: 24px auto 24px -26px;
+    padding: 20px;
+    border-left: solid 5px #eeeeee; }
+  .h-entry p {
+    margin-bottom: 0.8em; }
+  .h-entry a:focus, .h-entry a:hover {
+    text-decoration: underline; }
   .h-entry figure {
     margin: 0 0 0.8em 0; }
     .h-entry figure figcaption {
@@ -6309,7 +6319,7 @@ select[size] {
       display: block;
       position: absolute;
       margin-left: 0;
-      left: 7em;
+      left: 5em;
       width: 13em;
       text-align: right;
       clear: both;
@@ -6322,7 +6332,7 @@ select[size] {
     display: block;
     position: absolute;
     margin-left: 0;
-    left: 7em;
+    left: 5em;
     width: 13em;
     text-align: right;
     clear: both;
