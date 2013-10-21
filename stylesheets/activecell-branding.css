@@ -6073,11 +6073,7 @@ html {
 
 body {
   min-height: 100%;
-  background-image: -webkit-gradient(radial, center center, 0, center center, 460, from(#30878f), to(#00455b));
-  background-image: -webkit-radial-gradient(circle, #30878f, #00455b);
-  background-image: -moz-radial-gradient(circle, #30878f, #00455b);
-  background-image: radial-gradient(circle, #30878f, #00455b);
-  background-repeat: no-repeat; }
+  background-color: #00455b; }
 
 pre {
   font-size: 14px; }

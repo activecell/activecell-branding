@@ -4,6 +4,5 @@ html {
 
 body {
   min-height: 100%;
-  
-  @include gradient-radial($primary, $primary-dark);
+  background-color: $primary-dark;
 }
