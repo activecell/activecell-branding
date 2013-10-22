@@ -3,7 +3,8 @@ markdown: redcarpet
 pygments: true
 
 source: ./
-exclude: [".git", "sass", "_assets.yaml", "_config.yaml", "Gemfile", "Gemfile.lock", "Guardfile", "Procfile", "README.md"]
+destination: ./_gh_pages
+exclude: [".git", "sass", "_assets.yaml", "_config.yaml", "Gemfile", "Gemfile.lock", "Guardfile", "Procfile", "README.md", "scripts"]
 
 # Dependencies
 markdown:         rdiscount

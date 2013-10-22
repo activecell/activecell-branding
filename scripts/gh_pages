@@ -7,14 +7,14 @@ git push origin master || exit
 
 jekyll build || exit
 
-rm -rf /tmp/_site/
-cp -r _site/. /tmp/_site/
+rm -rf /tmp/_gh_pages/
+cp -r _gh_pages/. /tmp/_gh_pages/
 
 git checkout gh-pages
 
 rm -rf *
-cp -r /tmp/_site/. . 
-rm -rf /tmp/_site/
+cp -r /tmp/_gh_pages/. . 
+rm -rf /tmp/_gh_pages/
 
 git add -A
 git status -s | git commit -F-
