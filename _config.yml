@@ -4,7 +4,7 @@ pygments: true
 
 source: ./
 destination: ./_gh_pages
-exclude: [".git", "sass", "_assets.yaml", "_config.yaml", "Gemfile", "Gemfile.lock", "Guardfile", "Procfile", "README.md", "scripts"]
+exclude: [".git", "sass", "_assets.yaml", "_config.yaml", "Gemfile", "Gemfile.lock", "Guardfile", "Procfile", "README.md", "scripts", ".sass-cache"]
 
 # Dependencies
 markdown:         rdiscount
