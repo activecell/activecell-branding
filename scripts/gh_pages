@@ -12,6 +12,7 @@ cp -r _site/. /tmp/_site/
 
 git checkout gh-pages
 
+rm -rf *
 cp -r /tmp/_site/. . 
 rm -rf /tmp/_site/
 
