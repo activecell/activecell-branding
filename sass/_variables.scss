@@ -350,10 +350,10 @@ $pager-disabled-color:                 $gray-light !default;
 // -------------------------
 
 $jumbotron-padding:              30px !default;
-$jumbotron-color:                inherit !default;
+$jumbotron-color:                $gray !default;
 $jumbotron-bg:                   $gray-lighter !default;
 
-$jumbotron-heading-color:        inherit !default;
+$jumbotron-heading-color:        $gray-darker !default;
 
 
 // Form states and alerts

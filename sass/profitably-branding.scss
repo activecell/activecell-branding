@@ -71,42 +71,43 @@
 
 
 /*!
- * Activecell Branding
+ * Profitably Branding
  */
 
-// Activecell Core
-@import "activecell/core/type";
-@import "activecell/core/scaffolding";
-@import "activecell/core/code";
-@import "activecell/core/forms";
-@import "activecell/core/tables";
+// Profitably Core
+@import "profitably/core/type";
+@import "profitably/core/scaffolding";
+@import "profitably/core/code";
+@import "profitably/core/forms";
+@import "profitably/core/tables";
 
-// Activecell Components
-@import "activecell/components/dropdowns";
-@import "activecell/components/well";
-@import "activecell/components/navs";
-@import "activecell/components/navbar";
-@import "activecell/components/buttons";
-@import "activecell/components/labels";
-@import "activecell/components/input-groups";
-@import "activecell/components/pagination";
-@import "activecell/components/pager";
-@import "activecell/components/badges";
-@import "activecell/components/breadcrumbs";
-@import "activecell/components/widget-blocks";
-@import "activecell/components/alerts";
-@import "activecell/components/callouts";
-@import "activecell/components/panels";
+// Profitably Components
+@import "profitably/components/dropdowns";
+@import "profitably/components/well";
+@import "profitably/components/navs";
+@import "profitably/components/navbar";
+@import "profitably/components/buttons";
+@import "profitably/components/labels";
+@import "profitably/components/input-groups";
+@import "profitably/components/pagination";
+@import "profitably/components/pager";
+@import "profitably/components/badges";
+@import "profitably/components/breadcrumbs";
+@import "profitably/components/widget-blocks";
+@import "profitably/components/alerts";
+@import "profitably/components/callouts";
+@import "profitably/components/panels";
+@import "profitably/components/list-group";
 
-// Activecell Micro-formats
-@import "activecell/microformats/h-entry";
-@import "activecell/microformats/hCard";
+// Profitably Micro-formats
+@import "profitably/microformats/h-entry";
+@import "profitably/microformats/hCard";
 
-// Activecell Components withs JavaScript
-@import "activecell/components_js/modal";
-@import "activecell/components_js/tooltip";
+// Profitably Components withs JavaScript
+@import "profitably/components_js/modal";
+@import "profitably/components_js/tooltip";
 
-// Activecell Bootsrap chosen
-@import "activecell/bootstrap-chosen/bootstrap-chosen";
+// Profitably Bootsrap chosen
+@import "profitably/bootstrap-chosen/bootstrap-chosen";
 
-// Activecell Utility classes
+// Profitably Utility classes

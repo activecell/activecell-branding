@@ -2,7 +2,7 @@ compress_assets: off
 gzip_assets: off
 
 javascripts:
-  activecell-branding:
+  profitably-branding:
     - javascripts/bootstrap/affix.js
     - javascripts/bootstrap/alert.js
     - javascripts/bootstrap/button.js
