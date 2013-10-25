@@ -4,7 +4,7 @@
   line-height: 1.4em;
   
   .chosen-single {
-    @include border-radius($input-border-radius);
+    border-radius: $input-border-radius;
   }
   
   &.chosen-with-drop {
