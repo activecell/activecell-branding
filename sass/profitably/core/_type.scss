@@ -1,3 +1,25 @@
-.lead, .footer, footer, blockquote small {
-  font-family: $font-family-sans-serif;
+//
+// Typography
+// --------------------------------------------------
+
+
+// Body text
+// -------------------------
+p {
+  font-size: $font-size-prose;
+  font-family: $font-family-serif;
+}
+.lead {
+  font-size: ($font-size-large * 1.15);
+  font-family: $headings-font-family;
+}
+
+// Blockquotes
+blockquote {
+  p {
+    font-size: ($font-size-prose * 1.25);
+  }
+  small {
+    font-size: ($font-size-base);
+  }
 }
