@@ -12,11 +12,13 @@ $primary-dark: #00455B;
 // Grays
 // -------------------------
 
-$gray-darker:            lighten(#000, 13.5%) !default; // #222
-$gray-dark:              lighten(#000, 20%) !default;   // #333
-$gray:                   lighten(#000, 33.5%) !default; // #555
-$gray-light:             lighten(#000, 60%) !default;   // #999
-$gray-lighter:           lighten(#000, 93.5%) !default; // #eee
+$black:                  #231F20;
+$gray-darker:            lighten($black, 13.5%) !default; // #222
+$gray-dark:              lighten($black, 20%) !default;   // #333
+$gray:                   lighten($black, 33.5%) !default; // #555
+$gray-light:             lighten($black, 60%) !default;   // #999
+$gray-lighter:           lighten($black, 93.5%) !default; // #eee
+$white:                  #fff;
 
 // Brand colors
 // -------------------------
@@ -50,7 +52,7 @@ $font-family-base:        $font-family-sans-serif !default;
 $font-size-base:          14px !default;
 $font-size-large:         ceil($font-size-base * 1.25) !default; // ~18px
 $font-size-small:         ceil($font-size-base * 0.85) !default; // ~12px
-$font-size-prose:         20px !default;
+$font-size-prose:         $font-size-large !default;
 
 $line-height-base:        1.428571429 !default; // 20/14
 $line-height-computed:    floor($font-size-base * $line-height-base) !default; // ~20px
@@ -174,7 +176,7 @@ $dropdown-link-disabled-color:   $gray-light !default;
 
 $dropdown-header-color:          $gray-light !default;
 
-$dropdown-caret-color:           #000 !default;
+$dropdown-caret-color:           $black !default;
 
 
 // COMPONENT VARIABLES
@@ -429,7 +431,7 @@ $modal-content-bg:                             #fff !default;
 $modal-content-border-color:                   rgba(0,0,0,.2) !default;
 $modal-content-fallback-border-color:          #999 !default;
 
-$modal-backdrop-bg:           #000 !default;
+$modal-backdrop-bg:           $black !default;
 $modal-header-border-color:   #e5e5e5 !default;
 $modal-footer-border-color:   $modal-header-border-color !default;
 
@@ -571,7 +573,7 @@ $carousel-caption-color:                      #fff !default;
 
 // Close
 // ------------------------
-$close-color:                 #000 !default;
+$close-color:                 $black !default;
 $close-font-weight:           bold !default;
 $close-text-shadow:           0 1px 0 #fff !default;
 
