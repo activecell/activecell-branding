@@ -11,7 +11,7 @@
     border-top: 10px solid transparent;
     border-right: 10px solid transparent;
     border-left: 10px solid transparent;
-    border-bottom: 10px solid #fff;
+    border-bottom: 10px solid $white;
     content: "";
   }
 }
@@ -23,7 +23,7 @@
       top: auto;
       bottom: -20px;
       vertical-align: middle;
-      border-top: 10px solid #fff;
+      border-top: 10px solid $white;
       border-right: 10px solid transparent;
       border-left: 10px solid transparent;
       border-bottom: 10px solid transparent;
