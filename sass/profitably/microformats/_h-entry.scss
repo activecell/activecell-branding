@@ -1,5 +1,5 @@
 .h-entry {
-  font-size: 24px;
+  font-size: ceil($font-size-prose * 1.2); // ~24px;
   line-height: 135%;
   position: relative;
   margin: 0 0 30px;
