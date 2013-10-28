@@ -4909,6 +4909,9 @@ select[size] {
 .tooltip-inner {
   border: solid 1px #fff; }
 
+.popover {
+  color: #7e6f73; }
+
 .chosen-container {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
   .chosen-container .chosen-single {
