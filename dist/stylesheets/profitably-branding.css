@@ -260,7 +260,7 @@ body {
   font-size: 14px;
   line-height: 1.42857;
   color: #f7f7f7;
-  background-color: #30878f; }
+  background-color: #00455b; }
 
 input,
 button,
@@ -301,7 +301,7 @@ img {
 .img-thumbnail, .thumbnail, .vcard .photo {
   padding: 4px;
   line-height: 1.42857;
-  background-color: #30878f;
+  background-color: #00455b;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -1197,7 +1197,7 @@ th {
   .table tbody + tbody {
     border-top: 2px solid white; }
   .table .table {
-    background-color: #30878f; }
+    background-color: #00455b; }
 
 .table-condensed thead > tr > th,
 .table-condensed thead > tr > td,
@@ -3314,8 +3314,8 @@ a.list-group-item {
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: whitesmoke;
-  border: 1px solid #e3e3e3;
+  background-color: #f7f7f7;
+  border: 1px solid #e5e5e5;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); }
@@ -4628,43 +4628,6 @@ blockquote p {
 blockquote small {
   font-size: 14px; }
 
-html {
-  min-height: 100%; }
-
-body {
-  min-height: 100%;
-  background-color: #00455b; }
-
-form,
-.form-control,
-input[type="checkbox"],
-input[type="color"],
-input[type="date"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="email"],
-input[type="file"],
-input[type="hidden"],
-input[type="image"],
-input[type="month"],
-input[type="number"],
-input[type="password"],
-input[type="radio"],
-input[type="range"],
-input[type="range"],
-input[type="search"],
-input[type="tel"],
-input[type="text"],
-input[type="time"],
-input[type="url"],
-input[type="week"],
-select[multiple],
-select[size] {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.4em;
-  height: auto; }
-
 .dropdown-menu:before {
   position: absolute;
   top: -20px;
@@ -4714,25 +4677,7 @@ select[size] {
   font-weight: bold;
   text-transform: uppercase; }
 
-.label {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-
-.input-group-addon,
-.input-group-btn,
-.input-group-btn .btn {
-  font-size: 12px;
-  line-height: 1.6em; }
-
-.pagination {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-
-.pager {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-
 .badge {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-
-.breadcrumb {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 .widget-block, .vcard {
@@ -4751,9 +4696,6 @@ select[size] {
     /* 2 */ }
   .widget-block:after, .vcard:after {
     clear: both; }
-
-.alert {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 .callout {
   margin: 20px 0;
@@ -4912,13 +4854,11 @@ select[size] {
 .popover {
   color: #7e6f73; }
 
-.chosen-container {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-  .chosen-container .chosen-single {
-    border-radius: 4px; }
-  .chosen-container.chosen-with-drop .chosen-single {
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0; }
-  .chosen-container .chosen-results li.highlighted {
-    color: #f7f7f7;
-    background-color: #30878f; }
+.chosen-container .chosen-single {
+  border-radius: 4px; }
+.chosen-container.chosen-with-drop .chosen-single {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; }
+.chosen-container .chosen-results li.highlighted {
+  color: #f7f7f7;
+  background-color: #30878f; }
