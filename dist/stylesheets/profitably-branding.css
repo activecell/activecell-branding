@@ -4742,6 +4742,8 @@ blockquote small {
     margin-bottom: 5px; }
   #footer dd {
     margin-left: 10px; }
+  #footer .copyright {
+    text-align: right; }
 
 .h-entry {
   font-size: 22px;
