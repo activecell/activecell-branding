@@ -4732,6 +4732,17 @@ blockquote small {
 .list-group {
   color: #7e6f73; }
 
+#footer {
+  margin: 60px auto; }
+  #footer a {
+    color: #f7f7f7; }
+  #footer dl {
+    margin: 0; }
+  #footer dt {
+    margin-bottom: 5px; }
+  #footer dd {
+    margin-left: 10px; }
+
 .h-entry {
   font-size: 22px;
   line-height: 135%;
