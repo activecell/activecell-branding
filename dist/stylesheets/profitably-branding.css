@@ -4617,16 +4617,16 @@ td.visible-print {
  */
 /* UI
 -------------------------------------------------------------- */
-.ui-slider-vertical, .ui-slider-horizontal {
+.ui-slider-vertical, .ui-slider-horizontal, .ui-scrollbar {
   margin: 0 10px;
   padding: 0;
   list-style: none;
   border: none; }
-  .ui-slider-vertical li, .ui-slider-horizontal li {
+  .ui-slider-vertical li, .ui-slider-horizontal li, .ui-scrollbar li {
     display: inline-block;
     position: relative;
     margin: 0 20px 0 0; }
-  .ui-slider-vertical .ui-slider-track, .ui-slider-horizontal .ui-slider-track, .ui-slider-vertical .ui-slider, .ui-slider-horizontal .ui-slider {
+  .ui-slider-vertical .ui-slider-track, .ui-slider-horizontal .ui-slider-track, .ui-scrollbar .ui-slider-track, .ui-slider-vertical .ui-slider, .ui-slider-horizontal .ui-slider, .ui-scrollbar .ui-slider {
     width: 6px;
     height: 200px;
     background: #ddd;
@@ -4635,7 +4635,7 @@ td.visible-print {
     border: none;
     border-radius: 1em;
     box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.22), 1px 1px 0 rgba(255, 255, 255, 0.7); }
-  .ui-slider-vertical .ui-slider-handler, .ui-slider-horizontal .ui-slider-handler, .ui-slider-vertical .ui-slider-handle, .ui-slider-horizontal .ui-slider-handle {
+  .ui-slider-vertical .ui-slider-handler, .ui-slider-horizontal .ui-slider-handler, .ui-scrollbar .ui-slider-handler, .ui-slider-vertical .ui-slider-handle, .ui-slider-horizontal .ui-slider-handle, .ui-scrollbar .ui-slider-handle {
     position: absolute;
     bottom: 0;
     left: -6px;
@@ -4653,21 +4653,21 @@ td.visible-print {
     background-image: linear-gradient(to bottom, #f8f8f8 0%, #efefef 100%);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF8F8F8', endColorstr='#FFEFEFEF', GradientType=0); }
-    .ui-slider-vertical .ui-slider-handler:hover, .ui-slider-horizontal .ui-slider-handler:hover, .ui-slider-vertical .ui-slider-handle:hover, .ui-slider-horizontal .ui-slider-handle:hover {
+    .ui-slider-vertical .ui-slider-handler:hover, .ui-slider-horizontal .ui-slider-handler:hover, .ui-scrollbar .ui-slider-handler:hover, .ui-slider-vertical .ui-slider-handle:hover, .ui-slider-horizontal .ui-slider-handle:hover, .ui-scrollbar .ui-slider-handle:hover {
       background-image: -webkit-gradient(linear, left 0%, left 100%, from(white), to(#f7f7f7));
       background-image: -webkit-linear-gradient(top, white, 0%, #f7f7f7, 100%);
       background-image: -moz-linear-gradient(top, white 0%, #f7f7f7 100%);
       background-image: linear-gradient(to bottom, white 0%, #f7f7f7 100%);
       background-repeat: repeat-x;
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFF7F7F7', GradientType=0); }
-    .ui-slider-vertical .ui-slider-handler:active, .ui-slider-horizontal .ui-slider-handler:active, .ui-slider-vertical .ui-slider-handle:active, .ui-slider-horizontal .ui-slider-handle:active {
+    .ui-slider-vertical .ui-slider-handler:active, .ui-slider-horizontal .ui-slider-handler:active, .ui-scrollbar .ui-slider-handler:active, .ui-slider-vertical .ui-slider-handle:active, .ui-slider-horizontal .ui-slider-handle:active, .ui-scrollbar .ui-slider-handle:active {
       background-image: -webkit-gradient(linear, left 0%, left 100%, from(#f7f7f7), to(white));
       background-image: -webkit-linear-gradient(top, #f7f7f7, 0%, white, 100%);
       background-image: -moz-linear-gradient(top, #f7f7f7 0%, white 100%);
       background-image: linear-gradient(to bottom, #f7f7f7 0%, white 100%);
       background-repeat: repeat-x;
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF7F7F7', endColorstr='#FFFFFFFF', GradientType=0); }
-  .ui-slider-vertical .ui-slider-fill, .ui-slider-horizontal .ui-slider-fill, .ui-slider-vertical .ui-slider-range, .ui-slider-horizontal .ui-slider-range {
+  .ui-slider-vertical .ui-slider-fill, .ui-slider-horizontal .ui-slider-fill, .ui-scrollbar .ui-slider-fill, .ui-slider-vertical .ui-slider-range, .ui-slider-horizontal .ui-slider-range, .ui-scrollbar .ui-slider-range {
     position: absolute;
     width: 6px;
     bottom: 0;
@@ -4878,6 +4878,9 @@ blockquote small {
 .panel-body {
   color: #594f51; }
 
+.panel-group .panel {
+  overflow: visible !important; }
+
 .list-group {
   color: #7e6f73; }
 
@@ -5024,3 +5027,13 @@ blockquote small {
 .chosen-container .chosen-results li.highlighted {
   color: #f7f7f7;
   background-color: #30878f; }
+
+.input-group .chosen-container-single .chosen-single,
+.input-group .chosen-container-multi .chosen-choices {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-left-color: transparent; }
+
+/* drity fix */
+.modal .chosen-container {
+  width: 100%; }
