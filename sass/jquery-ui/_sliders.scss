@@ -126,7 +126,7 @@ ul.ui-horizontal-slider {
 //
 // Styleguide 3.3
 .ui-scrollbar {
-  @extend .ui-vertical-slider;
+  @extend .ui-slider-vertical;
 
   .ui-slider-track {
     width: 7px;

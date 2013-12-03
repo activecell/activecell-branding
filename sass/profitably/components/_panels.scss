@@ -1,3 +1,9 @@
 .panel-body {
   color: $gray-dark;
 }
+
+.panel-group {
+  .panel {
+    overflow: visible !important;
+  }
+}
